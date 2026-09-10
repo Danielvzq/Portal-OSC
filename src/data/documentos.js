@@ -51,56 +51,54 @@ export const DOCUMENTOS = [
 ]
 
 // Marco Normativo — documentos mostrados en Multimedia > Material de Apoyo.
-// `url: null` significa que no encontré una fuente pública oficial: usa el link
-// de Drive del documento original (clic derecho sobre el archivo en el sitio
-// de Google Sites → "Copiar enlace") y pégalo aquí.
+// Enlaces reales de Drive tomados directamente del sitio original.
 export const MARCO_NORMATIVO = [
   {
     titulo: 'Plan Estatal de Desarrollo 2022-2027',
-    url: 'https://www.nl.gob.mx/plan-estatal-de-desarrollo-2022-2027',
+    url: 'https://drive.google.com/file/d/1i8S9A-58kZsW1_2_uq6xY6uxYdVBR_Fq/view',
   },
   {
     titulo:
       'Reglamento Interior del Comité Técnico para el Fomento de las Actividades de las Organizaciones de la Sociedad Civil',
-    url: null,
+    url: 'https://drive.google.com/file/d/1hGiMlC2RdNISb0_iB6CZ5sqTVbG3SL_P/view',
   },
   {
     titulo: 'Ley de Desarrollo Social para el Estado de Nuevo León',
-    url: 'https://www.hcnl.gob.mx/trabajo_legislativo/leyes/pdf/LEY%20DE%20DESARROLLO%20SOCIAL%20PARA%20EL%20ESTADO%20DE%20NUEVO%20LEON.pdf',
+    url: 'https://drive.google.com/file/d/1nRYHSE3HjFAzJVpKGUNA2_3-75CR4ZNf/view',
   },
   {
     titulo: 'Ley General de Desarrollo Social',
-    url: 'https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_General_de_Desarrollo_Social.pdf',
+    url: 'https://drive.google.com/file/d/10uCAd_l0bzh_SxwrKEQXyPbxzQuS4hjn/view',
   },
   {
     titulo: 'Ley de la Beneficencia Privada para el Estado de Nuevo León',
-    url: 'https://sistec.nl.gob.mx/Transparencia_2015/Archivos/AC_0001_0002_0169172-0000001.pdf',
+    url: 'https://drive.google.com/file/d/1cFMXb_PBfSCHI4pcOo5Y5-Yze7gPQ-e2/view',
   },
   {
     titulo: 'Manual de Operaciones de la Secretaría de Igualdad e Inclusión',
-    url: null,
+    url: 'https://drive.google.com/file/d/1-s6IUhjjuzTFOVMRSUUkh35mV7_cST-u/view',
   },
   {
     titulo: 'Reglamento Interior de la Secretaría de Igualdad e Inclusión',
-    url: 'https://sistec.nl.gob.mx/Transparencia_2015/Archivos/AC_0001_0004_0170186-0000001.pdf',
+    url: 'https://drive.google.com/file/d/1IeoZDdGWCMfVrBWkzXxWQG4PBtOEi_-9/view',
   },
   {
     titulo: 'Ley de Egresos del Estado de Nuevo León para el Ejercicio Fiscal 2024',
-    url: 'https://www.hcnl.gob.mx/trabajo_legislativo/leyes/paquete_fiscal/ley_de_egresos_del_estado_de_nuevo_leon_para_el_ejercicio_fiscal_2024/',
+    url: 'https://drive.google.com/file/d/1DnL8wvYJwzNuq0FZE0Ep83gJ9UlHQbQt/view',
   },
   {
     titulo:
       'Ley de Protección de Datos Personales en Posesión de Sujetos Obligados del Estado de Nuevo León',
-    url: 'https://www.hcnl.gob.mx/trabajo_legislativo/leyes/leyes/ley_de_proteccion_de_datos_personales_en_posesion_de_sujetos_obligados_del_estado_de_nuevo_leon/',
+    url: 'https://drive.google.com/file/d/1VyjPJlYYc8TYLzfFSFHAKqONNLZpEHK0/view',
   },
   {
     titulo:
       'Reglamento de la Ley de Fomento de la Sociedad Civil Organizada para el Estado de Nuevo León',
-    url: 'https://sistec.nl.gob.mx/Transparencia_2015/Archivos/AC_0001_0004_0171356-0000001.pdf',
+    url: 'https://drive.google.com/file/d/1_piBtl_BO-x53ghq6Zx3kHtVF-laOxgg/view',
   },
   {
     titulo: 'Reglamento de la Ley de Desarrollo Social del Estado de Nuevo León',
-    url: null,
+    url: 'https://drive.google.com/file/d/1C8bO3X5sh1aielnoEZiuy41XqoiVtu5S/view',
   },
 ]
 
