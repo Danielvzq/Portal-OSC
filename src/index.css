@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-cream text-navy font-body antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+/* Botón píldora con contorno — el gesto visual heredado del sitio original */
+.pill-btn {
+  @apply inline-flex items-center gap-2 rounded-full border-2 px-6 py-2.5 font-semibold transition-colors duration-150;
+}
+
+.pill-btn-light {
+  @apply pill-btn border-white text-white hover:bg-white/15;
+}
+
+.pill-btn-dark {
+  @apply pill-btn border-navy text-navy hover:bg-navy hover:text-white;
+}
+
+:focus-visible {
+  outline: 3px solid #12172B;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
