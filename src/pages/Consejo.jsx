@@ -85,24 +85,6 @@ export default function Consejo() {
           </div>
         </div>
       </section>
-
-      <section className="mx-auto max-w-4xl px-5 pb-20">
-        <h2 className="mb-6 text-2xl font-bold text-navy">Informes Anuales</h2>
-        <ul className="space-y-3">
-          {ORGANOS_INFORMES.map((informe) => (
-            <li key={informe.titulo}>
-              <a
-                href={informe.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-lg font-bold text-brand-orangeDark underline underline-offset-4"
-              >
-                {informe.titulo}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
     </>
   )
 }

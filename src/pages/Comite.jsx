@@ -81,6 +81,33 @@ export default function Comite() {
           </div>
         </div>
       </section>
+
+      <section className="mx-auto max-w-4xl px-5 pb-20">
+        <h2 className="mb-6 text-2xl font-bold text-navy">Informes Anuales</h2>
+        <ul className="space-y-3">
+          {ORGANOS_INFORMES.map((informe) =>
+            informe.url ? (
+              <li key={informe.titulo}>
+                <a
+                  href={informe.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg font-bold text-brand-orangeDark underline underline-offset-4"
+                >
+                  {informe.titulo}
+                </a>
+              </li>
+            ) : (
+              <li key={informe.titulo} className="text-lg font-bold text-navy/40">
+                {informe.titulo}{' '}
+                <span className="text-xs font-normal uppercase tracking-wide text-navy/40">
+                  (falta el enlace)
+                </span>
+              </li>
+            ),
+          )}
+        </ul>
+      </section>
     </>
   )
 }
