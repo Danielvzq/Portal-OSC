@@ -480,7 +480,7 @@ export const CONVOCATORIAS_RESULTADOS = [
 ]
 
 // Trámites — Registro de OSC (6 etapas) y Acreditación de Actividades (3 etapas).
-export const REGISTRO_OSC_FORM = 'https://docs.google.com/forms/d/1C1yJF6HElhnlopC4dAIW47SQK3JmeodLc9b2fOxi894/edit'
+export const REGISTRO_OSC_FORM = 'https://drive.google.com/file/d/1SUll5aK9j7rvZIBsOIfizrnthM3De_b_/view'
 
 export const REGISTRO_OSC_DOCUMENTOS = [
   'FORMATO DE INSCRIPCIÓN en el Registro de las OSC (Anexo I) debidamente llenado y firmado.',
