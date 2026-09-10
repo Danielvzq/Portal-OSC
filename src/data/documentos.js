@@ -136,14 +136,14 @@ export const VIDEOS_OSC = [
       'Un espacio dedicado a la atención de niñas y niños con problemas en el neurodesarrollo. Este video presenta la labor de esta organización comprometida en desarrollar el máximo potencial de aprendizaje de cada integrante y lograr el mayor grado de funcionalidad e independencia posible según su nivel de compromiso.',
   },
   {
-    organizacion: 'Común a Ti, Comunidad Terapéutica, A.B.P.',
-    driveId: null,
+    organizacion: 'Comunidad Terapéutica, A.B.P.',
+    url: 'https://drive.google.com/file/d/1sjJkkRAbwyv_PA31pCuXtno772bSD9mE/view',
     descripcion:
       'Un lugar que busca brindar atención terapéutica mediante el modelo integral de rehabilitación y reintegración psicosocial, tanto a jóvenes como a adultos con diagnósticos de salud mental.',
   },
   {
     organizacion: 'Guerreros en la Vida y en la Cancha, A.B.P.',
-    driveId: null,
+    url: 'https://drive.google.com/file/d/1KVXpxKWgGYKDSaJtUZe0uobFY9tKs-Us/view',
     descripcion:
       'Un lugar que busca brindar a las juventudes neoleonesas más oportunidades y de formación integral a través del deporte. Este video presenta la labor de esta organización comprometida con la disciplina deportiva, las oportunidades que enriquecen la autodeterminación, el espíritu de superación y las alternativas de vida, así como las habilidades sociales de responsabilidad.',
   },
