@@ -3,16 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { NAV } from '../data/nav'
 
 function ShieldMark() {
-  return (
-    <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
-      <rect width="34" height="34" rx="9" fill="#F2811D" />
-      <path
-        d="M17 6 26 9.5v6c0 6.2-3.8 10.6-9 12.5-5.2-1.9-9-6.3-9-12.5v-6L17 6Z"
-        fill="white"
-      />
-      <circle cx="17" cy="15.5" r="3.2" fill="#F2811D" />
-    </svg>
-  )
+  return <img src="/logo-nl.png" alt="Escudo Nuevo León" className="h-9 w-9 object-contain" />
 }
 
 function Chevron() {
