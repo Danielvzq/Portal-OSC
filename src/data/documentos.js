@@ -232,6 +232,298 @@ export const CONSEJO_CONTACTO = {
   correo: 'nancy.lopez@nuevoleon.gob.mx',
 }
 
+export const CONVOCATORIA_COMUNICADO = {
+  titulo: 'Consulta el comunicado respecto a los pagos de los apoyos para la inversión social 2025',
+  url: 'https://drive.google.com/file/d/195hcKFGXqtsisEcSDYAPRTe10kkFSTHN/view?usp=sharing',
+}
+
+export const CONVOCATORIAS_BASES = [
+  {
+    anio: 'Convocatorias 2026',
+    items: [
+      { titulo: 'Convocatoria apoyo para la inversión social anual 2026', url: 'https://drive.google.com/file/d/1sYcAOkTi8E_yYR_OSKHfhUqctVP6i2Cl/view?usp=sharing' },
+      { titulo: 'Convocatoria apoyo para la inversión social estratégica 2026', url: 'https://drive.google.com/file/d/1V8_bVvpiE7MX1n6IhfrNXtKM_p78tpQo/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Anexos',
+    items: [
+      { titulo: 'Cuestionario de Conducta Prosocial', url: 'https://drive.google.com/file/d/1TNI4OTiI1N5KOt6deDUtRl1WNwamtAk_/view?usp=sharing' },
+      { titulo: 'Manual E2P', url: 'https://drive.google.com/file/d/1zYxOqZDHL8v18R1_btbhVtuJgUveT6AQ/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2025',
+    items: [
+      { titulo: 'Inversión Social Anual', url: 'https://drive.google.com/file/d/13lz_qWtnKZl6GpOzE2eTAzs6zWdgqkjV/view?usp=sharing' },
+      { titulo: 'Ayudamos a Garantizar el Cuidado 2025', url: 'https://drive.google.com/file/d/143UbyredI0fvBP4uvrcOMQ-16-Li3SHH/view?usp=sharing' },
+      { titulo: 'Ayudamos a Garantizar la Inclusión 2025', url: 'https://drive.google.com/file/d/1s2SaLVDCiq5GnrtWi2NhuHhKOa5URpR2/view?usp=sharing' },
+      { titulo: 'Ayudamos a Garantizar la Protección Social 2025', url: 'https://drive.google.com/file/d/1fVEnm6F84kroQYwTeZ-k47l2SZRBxzvL/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2024',
+    items: [
+      { titulo: 'Inversión Social Anual', url: 'https://drive.google.com/file/d/11-EfgwtH4OwIKQLiX4vkhsAPP68Z650x/view?usp=drive_link' },
+      { titulo: 'Primera Infancia', url: 'https://drive.google.com/file/d/137ef0ELjVmdqw1nN2-PteCw89kRnghs5/view?usp=sharing' },
+      { titulo: 'Inclusión Prioritaria', url: 'https://drive.google.com/file/d/1Uy7FNGlndw8x-cdfMYXaU_oqHUUXPMgN/view?usp=sharing' },
+      { titulo: 'Protección Social', url: 'https://drive.google.com/file/d/1hJqaTlrrN9zF2XIIsffx5aP3dkDtj3pm/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2023',
+    items: [
+      { titulo: 'Inversión Social Anual', url: 'https://drive.google.com/file/d/1tfv5Ce0hZyeBUE82PVDqH1Th37T_ZAvB/view?usp=drive_link' },
+      { titulo: 'Primera Infancia', url: 'https://drive.google.com/file/d/1-rFd7ycPUuwtxUOUXRmgualqvkwbZMtC/view?usp=drive_link' },
+      { titulo: 'Inclusión Prioritaria', url: 'https://drive.google.com/file/d/1y5HTqXjgpeO_zk0vJ60HWDOHcWLAO4f5/view?usp=drive_link' },
+      { titulo: 'Protección Social', url: 'https://drive.google.com/file/d/1LgPsJUEiPc9oZwSOPg6C4e_4ZAxZnUzi/view?usp=drive_link' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2022',
+    items: [
+      { titulo: 'Mensual', url: 'https://drive.google.com/file/d/1eWsl8Cr1JfxUVg2ylzYPS9VuyOLlvWNO/view?usp=drive_link' },
+      { titulo: 'Fortalecimiento', url: 'https://drive.google.com/file/d/1cxITKdiZLQvld3A3W129JxeKnCXLfpnh/view?usp=drive_link' },
+      { titulo: 'Protección Social', url: 'https://drive.google.com/file/d/1vip8HeneGeIWQbX-oGa_TlTnRxVcf1Dw/view?usp=drive_link' },
+      { titulo: 'Primera Infancia', url: 'https://drive.google.com/file/d/12_JDPYWaOREO6yZP9BreHr0AoE5TQ16u/view?usp=drive_link' },
+      { titulo: 'Prevención Social', url: 'https://drive.google.com/file/d/1do_HaLmFuHfzNulKfFgwOP9_hN0T0Tni/view?usp=drive_link' },
+      { titulo: 'Desarrollo Comunitario Integral', url: 'https://drive.google.com/file/d/1lR7EYZ04ZaNeFCme5m82iqDJvvH3y969/view?usp=drive_link' },
+      { titulo: 'Inclusión Social y no Discriminación', url: 'https://drive.google.com/file/d/1dYkppW0ZOFszW-i9-WsSuy1vuFIQI71I/view?usp=drive_link' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2021',
+    items: [
+      { titulo: 'Apoyo Mensual', url: 'https://drive.google.com/file/d/10AMQ6uJQuwpnjE3pX1Vxg0RgqWQzUhTM/view?usp=drive_link' },
+      { titulo: 'Desarrollo Integral de Niñas, Niños y Jóvenes', url: 'https://drive.google.com/file/d/1C15tZulQPchxeyjL-h8yVQWSKfdDJ_H9/view?usp=sharing' },
+      { titulo: 'Desarrollo Integral de Indígenas y Migrantes', url: 'https://drive.google.com/file/d/1522tmInjVDzf0Ebl7RKanQ820bLTewOT/view?usp=drive_link' },
+      { titulo: 'Personas con Discapacidad', url: 'https://drive.google.com/file/d/1eU9MfjmUtAPyqAMnwrNnULXUlNhj9j3X/view?usp=drive_link' },
+      { titulo: 'Insumos COVID-19', url: 'https://drive.google.com/file/d/1f8hm6sbc_kUkrd8QHrs22rHgn2mWJ3Fh/view?usp=sharing' },
+      { titulo: 'Adultos Mayores', url: 'https://drive.google.com/file/d/14MnCP_PBTwD1aNg4wVGZFmnHom0ZUah1/view?usp=sharing' },
+      { titulo: 'Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1K5cS_dnt84tGo_N0PphSdAXXlqbW_ydz/view?usp=sharing' },
+      { titulo: 'Reconstrucción del Tejido Social', url: 'https://drive.google.com/file/d/1r_bNlgv3NvigpcnGoQRVxoUrT_yINWRp/view?usp=drive_link' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2020',
+    items: [
+      { titulo: 'Insumos COVID-19', url: 'https://drive.google.com/file/d/1rZmgToXYtQ2JJvh4SlMDHIrA2ej-zYY4/view?usp=sharing' },
+      { titulo: 'Reconstrucción del Tejido Social', url: 'https://drive.google.com/file/d/1z87J_cGyqdM6BQb7V72CVTbpFTJJglQ8/view?usp=drive_link' },
+      { titulo: 'Desarrollo Integral de Niñas, Niños y Jóvenes', url: 'https://drive.google.com/file/d/11xXJd0Hu1CwakPJfaQQNkoe7v5_g1pUy/view?usp=drive_link' },
+      { titulo: 'Infraestructura Frente al COVID-19', url: 'https://drive.google.com/file/d/18xBdxnPhv5C7T-qcP4MOCahIhtlMpDKv/view?usp=drive_link' },
+      { titulo: 'Personas con Discapacidad', url: 'https://drive.google.com/file/d/1gpdNM1d-yQbh_74lYKW5BgO-y6Z7M9-_/view?usp=drive_link' },
+      { titulo: 'Desarrollo Integral de Indígenas', url: 'https://drive.google.com/file/d/17hog_YFXynSBbMRuzh90cj4n1JwdLmZa/view?usp=drive_link' },
+      { titulo: 'Adultos Mayores', url: 'https://drive.google.com/file/d/1DbgVcPzur1GDhAzovbJ_o2YWVeeoi5R3/view?usp=drive_link' },
+      { titulo: 'Prevención de la Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1uKgf54_r4IF8OLnU6wFlAT7HjPyunt7V/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2019',
+    items: [
+      { titulo: 'Apoyo Mensual', url: 'https://drive.google.com/file/d/1g0Ho7aaVOqrZHzgKH0xlYERgBcAU-_VJ/view?usp=sharing' },
+      { titulo: 'Personas con Discapacidad', url: 'https://drive.google.com/file/d/1dFXEEOxyGd5N1rtxpo2JmH0gQ3_p5g94/view?usp=drive_link' },
+      { titulo: 'Adultos Mayores', url: 'https://drive.google.com/file/d/1X2pppY03evO_ua03TN6VBOm5nKVKg4W0/view?usp=sharing' },
+      { titulo: 'Inclusión Productiva Personas con Discapacidad', url: 'https://drive.google.com/file/d/1CAVedchnoRN-Iy1eXadNDj96AhY6wQQU/view?usp=sharing' },
+      { titulo: 'Desarrollo Integral Personas Indígenas', url: 'https://drive.google.com/file/d/1T_Yvb-ebqdjnS1nGDv7q_v3G_V4bq5iz/view?usp=sharing' },
+      { titulo: 'Desarrollo Integral de Migrantes', url: 'https://drive.google.com/file/d/1fgeXtW83yOQAmiwxrIGcinGUBLw0JfYh/view?usp=sharing' },
+      { titulo: 'Desarrollo Integral Niñas, Niños y Jóvenes', url: 'https://drive.google.com/file/d/1K2-YV_uHvso_YR7W6dUcK91RWtlA14zF/view?usp=sharing' },
+      { titulo: 'Prevención de la Violencia', url: 'https://drive.google.com/file/d/1nVBIfaEm-PiAf2l2PU-JPbSmWGLkN07Z/view?usp=sharing' },
+      { titulo: 'Mujeres', url: 'https://drive.google.com/file/d/1XH7vqsZAGOhDmmXlEQJtWYj0v4oS0RNu/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2018',
+    items: [
+      { titulo: 'Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1exoGRy8alTCanRPwMFfI3UklmGAXH4A4/view?usp=drive_link' },
+      { titulo: 'Instituciones Asistenciales', url: 'https://drive.google.com/file/d/1H_MilKhLXNr_AuiwLiZvA9jwenLNxBIW/view?usp=drive_link' },
+      { titulo: 'Adulto Mayor', url: 'https://drive.google.com/file/d/1fE2tef9L0jsffPfYorgducYloZLKAWZp/view?usp=sharing' },
+      { titulo: 'Migrantes', url: 'https://drive.google.com/file/d/1Bc8PLvUDg23X6GZavKg0aAODrHP72yir/view?usp=sharing' },
+      { titulo: 'Personas con Discapacidad', url: 'https://drive.google.com/file/d/1dBrJuFHgJfDS-fAaBkiotcfdSByDPG3w/view?usp=sharing' },
+      { titulo: 'Adicciones en Jóvenes', url: 'https://drive.google.com/file/d/1FDRo_K5fgzoTR-Txt5AancjQf_Oz6f3Q/view?usp=sharing' },
+      { titulo: 'PPL y Personas Indígenas', url: 'https://drive.google.com/file/d/1gORrtrrz9qxsDym2D9ZYldLovqgeuiDW/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2017',
+    items: [
+      { titulo: 'Atención de Indígenas, Jóvenes y Migrantes', url: 'https://drive.google.com/file/d/16p66gYngGdHjnpJUut2zicZlukYathX3/view?usp=sharing' },
+      { titulo: 'Personas con Discapacidad', url: 'https://drive.google.com/file/d/1CesOrN8KZ1FLuCkUhIxcXw_DH_bPHfP3/view?usp=sharing' },
+      { titulo: 'Familias con Futuro', url: 'https://drive.google.com/file/d/18EfJzaVoKyxb-F65qdBHZuCHHU5EPRlg/view?usp=sharing' },
+      { titulo: 'Prevención de la Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1YRUARikVbrhCx5NpuTSsHN-qpkwb1ftc/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Convocatorias 2016',
+    items: [{ titulo: 'Convocatoria', url: 'https://drive.google.com/file/d/1zdcZr8amzoD0an7C-prmtJZr6AtMVOLF/view?usp=sharing' }],
+  },
+  {
+    anio: 'Convocatorias 2015',
+    items: [{ titulo: 'Convocatoria', url: 'https://drive.google.com/file/d/1MB_bFPDw7rkpayYGmInhkih0-3qheiyX/view?usp=sharing' }],
+  },
+]
+
+export const CONVOCATORIAS_RESULTADOS = [
+  {
+    anio: '2026',
+    items: [
+      { titulo: 'Comunicado sobre la publicación de resultados — Apoyo para la inversión social anual 2026', url: 'https://drive.google.com/file/d/11gebdEwg8hfMs2DNlO6AedH7NeYa4eIl/view?usp=sharing' },
+      { titulo: 'Resultados Convocatoria apoyo para la inversión social estratégica 2026', url: 'https://drive.google.com/file/d/1hZBsOgCLtA7Fg9meAUkd7ZS3fQp9BZzy/view' },
+    ],
+  },
+  {
+    anio: 'Resultados 2025',
+    items: [
+      { titulo: 'Resultados Inversión Social Anual', url: 'https://drive.google.com/file/d/1QjdPORk0sBKnAJGc0RyCKLE8KmCGuSaN/view?usp=sharing' },
+      { titulo: 'Ayudamos a Garantizar el Cuidado 2025', url: 'https://drive.google.com/file/d/1hik5Bvvi2V29BwK4svp7_CmuZliUTmCi/view?usp=sharing' },
+      { titulo: 'Ayudamos a Garantizar la Inclusión 2025', url: 'https://drive.google.com/file/d/1GRFRDulmmaJcLn1hBD0w5LGgAxNn-0MH/view?usp=sharing' },
+      { titulo: 'Ayudamos a Garantizar la Protección Social 2025', url: 'https://drive.google.com/file/d/1sAPjtkWJkesdaa-g8BsgWSTW1wFEcCUJ/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Resultados 2024',
+    items: [
+      { titulo: 'Resultados Inversión Social Anual', url: 'https://drive.google.com/file/d/1GHQpL0NNCxXu78eSQjGdWNlXaSsuFWzO/view?usp=drive_link' },
+      { titulo: 'Resultados Primera Infancia', url: 'https://drive.google.com/file/d/1DhCNNcYdOYsqttgdUwJxkIlCLkvQlcgA/view?usp=sharing' },
+      { titulo: 'Resultados Inclusión Prioritaria', url: 'https://drive.google.com/file/d/1G8WbK3FhSnijfdnAzkmCqyOkbVA9Dc1d/view?usp=sharing' },
+      { titulo: 'Resultados Protección Social', url: 'https://drive.google.com/file/d/1QjH0i2FB186mLFZnwvvGA-uoKZzVh8Dq/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Resultados 2023',
+    items: [
+      { titulo: 'Resultados Inversión Social Anual', url: 'https://drive.google.com/file/d/1_86j8yivSYnU-LcPC6pZn6bIj4YiudgF/view?usp=drive_link' },
+      { titulo: 'Resultados Primera Infancia', url: 'https://drive.google.com/file/d/137_OWzpMXXV0SSrNqOB75z4xS4sk3Rzh/view?usp=sharing' },
+      { titulo: 'Resultados Inclusión Prioritaria', url: 'https://drive.google.com/file/d/1ACqBtxUQZB_DUF7zyXNJlu1E1dERYRHD/view?usp=sharing' },
+      { titulo: 'Resultados Protección Social', url: 'https://drive.google.com/file/d/1pn2QGGOCKnfjb9VBhsacAygQGSOn2lvx/view?usp=drive_link' },
+    ],
+  },
+  {
+    anio: 'Resultados 2022',
+    items: [
+      { titulo: 'Mensual', url: 'https://drive.google.com/file/d/1HDkQq_lodeW358FdQSdoBWrCArTW6wuT/view?usp=drive_link' },
+      { titulo: 'Resultados Fortalecimiento', url: 'https://drive.google.com/file/d/1U9-50XDaE7Sud_hTniV9SUewz76Ih9xO/view?usp=sharing' },
+      { titulo: 'Resultados Protección Social', url: 'https://drive.google.com/file/d/1UlanRcQ6zGjlwe8ChJ9NRZKysIQqVPC7/view?usp=drive_link' },
+      { titulo: 'Resultados Primera Infancia', url: 'https://drive.google.com/file/d/1FR8I-37vO3IT_92cYdNdmpggsaPkul7l/view?usp=sharing' },
+      { titulo: 'Resultados Prevención Social', url: 'https://drive.google.com/file/d/1z9vlEMPuhGdgRMELjcwNvOKOLOpWNe5I/view?usp=sharing' },
+      { titulo: 'Resultados Desarrollo Comunitario Integral', url: 'https://drive.google.com/file/d/1_ABeczQpFQeCMDsDAPV8aO6NA241Ubad/view?usp=sharing' },
+      { titulo: 'Resultados Inclusión Social y No Discriminación', url: 'https://drive.google.com/file/d/1p-pQvdJSyXgEbpZoYN0TtCu1ptnMP-rK/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Resultados 2021',
+    items: [
+      { titulo: 'Resultados Apoyo Mensual', url: 'https://drive.google.com/file/d/1TAieDmIkSlQ8gVfx4h0Joq24HfMxV-aj/view?usp=drive_link' },
+      { titulo: 'Resultados Desarrollo Integral de Niñas, Niños y Jóvenes', url: 'https://drive.google.com/file/d/1taCIbCc5OsohdFiHka6STiLRR759AyoZ/view?usp=drive_link' },
+      { titulo: 'Resultados Desarrollo Integral de Personas Indígenas y Migrantes', url: 'https://drive.google.com/file/d/1yQ94VZFQN0EliKNx-3WHFGC0fgR2nKgN/view?usp=sharing' },
+      { titulo: 'Resultados Personas con Discapacidad', url: 'https://drive.google.com/file/d/1TkcvGuqqpe9lgw8Gu01Hzofg5iTWSM1G/view?usp=drive_link' },
+      { titulo: 'Resultados Insumos COVID-19', url: 'https://drive.google.com/file/d/1syUn2467cbkJp_zzTUHXx9RpCynTzQC2/view?usp=sharing' },
+      { titulo: 'Resultados Adultos Mayores', url: 'https://drive.google.com/file/d/1FGmSnyrTDgxEyZ9vs-IrDE5OwtsAjrXM/view?usp=drive_link' },
+      { titulo: 'Resultados Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1wjeG0RtcFPXf_JzGgE7lHq9sX3S-GtPT/view?usp=sharing' },
+      { titulo: 'Reconstrucción del Tejido Social', url: 'https://drive.google.com/file/d/1tqnnAP6yO4F8KRgX_kqwm7icag1i_vyu/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Resultados 2020',
+    items: [
+      { titulo: 'Resultados Mensual', url: 'https://drive.google.com/file/d/1h8VV3jvLqIz-ey3EDg2dD7SAw4RN-yqT/view?usp=drive_link' },
+      { titulo: 'Resultados Insumos COVID-19', url: 'https://drive.google.com/file/d/1S-_SMFRWQ6Fa_DeAwvhSGsccFagGuMWX/view?usp=sharing' },
+      { titulo: 'Resultados Reconstrucción del Tejido Social', url: 'https://drive.google.com/file/d/11Zfs4LWAGCRQqvpfGK4YzDMrNHcDgjV8/view?usp=drive_link' },
+      { titulo: 'Resultados Desarrollo Integral de Niñas, Niños y Jóvenes', url: 'https://drive.google.com/file/d/1AfGhr37AzCM8temOx8JcYRtAV7qfbaJS/view?usp=sharing' },
+      { titulo: 'Resultados Infraestructura Frente al COVID-19', url: 'https://drive.google.com/file/d/1txQnHMkp__L32OE2G-Xc8ziBqvEaDNz3/view?usp=drive_link' },
+      { titulo: 'Resultados Personas con Discapacidad', url: 'https://drive.google.com/file/d/1-QTGYZ3rdQ3MhiayBoQm45DX93Pjn7gf/view?usp=drive_link' },
+      { titulo: 'Resultados Desarrollo Integral de Indígenas', url: 'https://drive.google.com/file/d/1f_UlQMkIolhJFhFc8V2LFnipGDG9jfLf/view?usp=sharing' },
+      { titulo: 'Resultados Adultos Mayores', url: 'https://drive.google.com/file/d/1wfPKL12nY10ibgiIw9O3FldG4dDH9wSP/view?usp=sharing' },
+      { titulo: 'Resultados Prevención de la Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1Dl84SH7RYCTXyfPRTj0HywXFcJjVV5Q-/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Resultados 2019',
+    items: [
+      { titulo: 'Resultados Apoyo Mensual', url: 'https://drive.google.com/file/d/10pVYx3RyTMET2mzbqYptl831JUP-b2Jg/view?usp=sharing' },
+      { titulo: 'Resultados Personas con Discapacidad', url: 'https://drive.google.com/file/d/1P1pxkHUpGueMk7KxIEcGCu_tZ_1IlAsp/view?usp=sharing' },
+      { titulo: 'Resultados Adultos Mayores', url: 'https://drive.google.com/file/d/1Vq9jED6IP3WmIID3M6-envBXr24zjlJg/view?usp=sharing' },
+      { titulo: 'Resultados Inclusión Productiva Personas con Discapacidad', url: 'https://drive.google.com/file/d/1DBKswmKwZTXgw_SJNpvgczPmaddO-9Ow/view?usp=sharing' },
+      { titulo: 'Resultados Desarrollo Integral Personas Indígenas', url: 'https://drive.google.com/file/d/1C65dGzYEDP4ND3FuGe45I1nq5ckzq2S7/view?usp=sharing' },
+      { titulo: 'Resultados Desarrollo Integral de Personas Migrantes', url: 'https://drive.google.com/file/d/16dhnm8jjY9b-oas_PpchH676BtGfrS8Y/view?usp=sharing' },
+      { titulo: 'Resultados Desarrollo Integral Niñas, Niños y Jóvenes', url: 'https://drive.google.com/file/d/1RTtdHIFRZH7d2mbtf2MlzJDuWlPbJg_R/view?usp=sharing' },
+      { titulo: 'Resultados Prevención de la Violencia', url: 'https://drive.google.com/file/d/1SvEYLgr0TgBPQoeqUdoYhzgU-ZPu4uhq/view?usp=sharing' },
+      { titulo: 'Resultados Mujeres', url: 'https://drive.google.com/file/d/1tANePrEGon3zgyaiZWBxj-Zh6KahgmB8/view?usp=sharing' },
+    ],
+  },
+  {
+    anio: 'Resultados 2018',
+    items: [
+      { titulo: 'Resultados Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1X-ZD2r9eekK-Pw20XZSMXIje66ss01nF/view?usp=sharing' },
+      { titulo: 'Resultados Instituciones Asistenciales', url: 'https://drive.google.com/file/d/1Y1EEG8OlFwXPxTGY6lHwc_P4kLVRF3Og/view?usp=sharing' },
+      { titulo: 'Resultados Adulto Mayor', url: 'https://drive.google.com/file/d/1KGFwaLWayNxIQFPkvLzhagq2WZvcqyC7/view?usp=sharing' },
+      { titulo: 'Resultados Migrantes', url: 'https://drive.google.com/file/d/1QzcPHEZhGlx3m_3OSsCsbipPDIVZeRUz/view?usp=sharing' },
+      { titulo: 'Resultados Personas con Discapacidad', url: 'https://drive.google.com/file/d/1Jqs_cIP1yByf3ZXAIcFNhWx4OrtjLUw6/view?usp=sharing' },
+      { titulo: 'Resultados Adicciones en Jóvenes', url: 'https://drive.google.com/file/d/1DAGHOsRBgnrPAI2CcC6bl7Mg44hH_yM5/view?usp=drive_link' },
+      { titulo: 'Resultados PPL y Personas Indígenas', url: 'https://drive.google.com/file/d/1jWHHZ89nARuYnXfNgB0qny4lAENME7N3/view?usp=drive_link' },
+    ],
+  },
+  {
+    anio: 'Resultados 2017',
+    items: [
+      { titulo: 'Resultados Atención de Indígenas, Jóvenes y Migrantes', url: 'https://drive.google.com/file/d/1H6v7xf-pogXUYidVYceFncbMs3-rmqSJ/view?usp=sharing' },
+      { titulo: 'Resultados Personas con Discapacidad', url: 'https://drive.google.com/file/d/1u8AMqQPG3cS8QHyi7ct61Xg2Nb55sdrL/view?usp=drive_link' },
+      { titulo: 'Resultados Familias con Futuro', url: 'https://drive.google.com/file/d/1SJtF3f7b1KmSBwWYff2SwIWg58-C6ejJ/view?usp=drive_link' },
+      { titulo: 'Resultados Prevención de la Violencia Contra las Mujeres', url: 'https://drive.google.com/file/d/1iN8LhrI2IWZK5y2Ti3VvcIYUz3cekWM_/view?usp=drive_link' },
+    ],
+  },
+  {
+    anio: 'Resultados 2016',
+    items: [{ titulo: 'Resultados de Convocatoria', url: 'https://drive.google.com/file/d/1Zxt5JvfqSd9OixJfBcoWNw-Be7G9ezSf/view?usp=drive_link' }],
+  },
+  {
+    anio: 'Resultados 2015',
+    items: [{ titulo: 'Resultados de Convocatoria', url: 'https://drive.google.com/file/d/1yvbfTBJMysdYRqfM6lwd6RTCcUdLf7L0/view?usp=sharing' }],
+  },
+]
+
+// Trámites — Registro de OSC (6 etapas) y Acreditación de Actividades (3 etapas).
+export const REGISTRO_OSC_FORM = 'https://docs.google.com/forms/d/1C1yJF6HElhnlopC4dAIW47SQK3JmeodLc9b2fOxi894/edit'
+
+export const REGISTRO_OSC_DOCUMENTOS = [
+  'FORMATO DE INSCRIPCIÓN en el Registro de las OSC (Anexo I) debidamente llenado y firmado.',
+  'Copia simple del ACTA CONSTITUTIVA de la OSC, debidamente inscrita en el Registro Público de la Propiedad y del Comercio del Instituto Registral y Catastral del Estado de Nuevo León.',
+  'Copia simple de la acreditación como DONATARIA AUTORIZADA.',
+  'Copia simple del COMPROBANTE DE DOMICILIO FISCAL Y OPERATIVO de la OSC, pudiendo ser el recibo de luz, agua o teléfono fijo.',
+  'Copia simple del PODER DEL REPRESENTANTE LEGAL.',
+  'Copia simple de SU IDENTIFICACIÓN OFICIAL.',
+  'Copia simple del Registro Federal de Contribuyentes (RFC) de la OSC.',
+  'Copia simple del INFORME DE ACTIVIDADES ANUAL presentado a la JBPNL o de un dictamen fiscal generado por un Contador Público Certificado o bien de la DECLARACIÓN ANUAL DEL EJERCICIO INMEDIATO ANTERIOR que la OSC haya presentado al Servicio de Administración Tributaria.',
+  'Copia simple de documento que avale ACREDITACIÓN BANCARIA de la organización.',
+  'Documento donde se incluyan actividades, padrón de beneficiarios y EVIDENCIA DE LAS ACTIVIDADES del año en curso realizadas por la OSC.',
+  'Copia certificada por la autoridad competente de documento que avale INCORPORACIÓN a la Secretaría de Educación Pública, Salud u órgano competente. Toda aquella OSC que dentro de sus objetivos se encuentre la certificación de educación primaria o secundaria, deberán incorporarse a la Secretaría de Educación Pública y estar autorizados para ello. Lo mismo en lo referente a salud, atención psicológica, médica o alguna otra especialización será obligatorio contar con el aval de la autoridad competente.',
+]
+
+export const ACREDITACION_ACTIVIDADES_URL = 'https://drive.google.com/file/d/1vCyjx257qBG4ITHsQ7_ijrA6ja5ZbKFy/view?usp=sharing'
+export const ACREDITACION_ACTIVIDADES_CORREO = 'guadalupe.delgado@nuevoleon.gob.mx'
+
+// Eventos Externos — Boletín vOSCes, con enlace real de Drive de cada volumen.
+export const BOLETIN_VOSCES = [
+  { vol: 18, periodo: 'Febrero', url: 'https://drive.google.com/file/d/1bxssJ4tWFbLre4JRMH1yIu3UVXlQgQ00/view' },
+  { vol: 17, periodo: 'Febrero', url: 'https://drive.google.com/file/d/18WbNz20CcoiWFVnDua6T3-bekoNnZYcu/view' },
+  { vol: 16, periodo: 'Febrero', url: 'https://drive.google.com/file/d/19y9A3ZtMrlWoKisU-VY6o5C6lf2KiDFj/view' },
+  { vol: 15, periodo: 'Enero', url: 'https://drive.google.com/file/d/1auaZo9ceQRbv9WnOyqR8vqAZTtCTlLWw/view' },
+  { vol: 14, periodo: 'Enero', url: 'https://drive.google.com/file/d/1fNP_dk2v8cCdElMk1BBvJGahO7T5TIfo/view' },
+  { vol: 13, periodo: 'Enero', url: 'https://drive.google.com/file/d/1C4QYsDBNAUyx1Q5arpoBHvdkhegC3q5t/view' },
+  { vol: 12, periodo: 'Enero', url: 'https://drive.google.com/file/d/1Bc0LOQpWLXyZAe8Pwqz1C2lu_RO9ggnZ/view' },
+  // ⚠️ Vol. 11 y Vol. 10 llegaron con el mismo enlace — verifica si es correcto.
+  { vol: 11, periodo: 'Enero', url: 'https://drive.google.com/file/d/1o9w6JKXcymyVywH7Umu2XDLjJdc_Fa33/view' },
+  { vol: 10, periodo: 'Diciembre', url: 'https://drive.google.com/file/d/1o9w6JKXcymyVywH7Umu2XDLjJdc_Fa33/view' },
+  { vol: 9, periodo: 'Noviembre', url: 'https://drive.google.com/file/d/1tE4byVSCZ53_p429BVekIpy3F6tHWV7R/view' },
+  { vol: 8, periodo: 'Noviembre', url: 'https://drive.google.com/file/d/1SqFstJlw4T8rmuW_c7RDoJX4a9Z0Pk1i/view' },
+  { vol: 7, periodo: 'Noviembre', url: 'https://drive.google.com/file/d/19J-lLTDfjyTZE2XCoAFUzuJjNNuz4wkc/view' },
+  { vol: 6, periodo: 'Noviembre', url: 'https://drive.google.com/file/d/1MDf2qf0NLvvMNZ48cO6dQOMYNGTVOhxD/view' },
+  { vol: 5, periodo: 'Octubre | Noviembre', url: 'https://drive.google.com/file/d/13kaEuiBNUOvmZC3dL5777UNZgWlFLbri/view' },
+  { vol: 4, periodo: 'Octubre', url: 'https://drive.google.com/file/d/15ubM8N6Ga_A9DkEeTzZ84iAuT2ipM7HO/view' },
+  { vol: 3, periodo: 'Octubre', url: 'https://drive.google.com/file/d/19IfKlQ0l9aTx7j2gVhcoQod06In2niqJ/view' },
+  { vol: 2, periodo: 'Octubre', url: 'https://drive.google.com/file/d/1wXLrsxLuTLvqZ251_VP_K3QemIxPKfdd/view' },
+  { vol: 1, periodo: 'Septiembre | Octubre', url: 'https://drive.google.com/file/d/1JHR5bkwYo2GCZUpptuHtB3QczoOBK05V/view' },
+]
+
 export const REDES = [
   { label: 'Facebook', url: 'https://facebook.com/igualdadnl' },
   { label: 'Instagram', url: 'https://instagram.com/igualdadnl' },
