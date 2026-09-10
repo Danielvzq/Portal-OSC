@@ -522,6 +522,25 @@ export const BOLETIN_VOSCES = [
   { vol: 1, periodo: 'Septiembre | Octubre', url: 'https://drive.google.com/file/d/1JHR5bkwYo2GCZUpptuHtB3QczoOBK05V/view' },
 ]
 
+// Contáctanos — Dirección de Inversión Social.
+export const CONTACTO_INFO = {
+  dependencia: 'Dirección de Inversión Social',
+  telefono: '(81) 2033-2834',
+  correo: 'inversion.social@nuevoleon.gob.mx',
+}
+
+export const CONTACTO_AYUDA = [
+  'Proporcionarte información detallada sobre el proceso de registro de tu organización.',
+  'Orientarte sobre la acreditación de actividades y proyectos sociales.',
+  'Responder a cualquier consulta relacionada con convocatorias y programas de apoyo.',
+]
+
+export const CONTACTO_VENTAJAS = [
+  'Acceso directo a expertos en cada área.',
+  'Soluciones rápidas y personalizadas.',
+  'Apoyo en cada etapa del proceso para asegurar que cumplas con los requisitos necesarios.',
+]
+
 export const REDES = [
   { label: 'Facebook', url: 'https://facebook.com/igualdadnl' },
   { label: 'Instagram', url: 'https://instagram.com/igualdadnl' },
