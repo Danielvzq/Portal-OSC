@@ -50,6 +50,68 @@ export const DOCUMENTOS = [
   },
 ]
 
+// Marco Normativo — documentos mostrados en Multimedia > Material de Apoyo.
+// `url: null` significa que no encontré una fuente pública oficial: usa el link
+// de Drive del documento original (clic derecho sobre el archivo en el sitio
+// de Google Sites → "Copiar enlace") y pégalo aquí.
+export const MARCO_NORMATIVO = [
+  {
+    titulo: 'Plan Estatal de Desarrollo 2022-2027',
+    url: 'https://www.nl.gob.mx/plan-estatal-de-desarrollo-2022-2027',
+  },
+  {
+    titulo:
+      'Reglamento Interior del Comité Técnico para el Fomento de las Actividades de las Organizaciones de la Sociedad Civil',
+    url: null,
+  },
+  {
+    titulo: 'Ley de Desarrollo Social para el Estado de Nuevo León',
+    url: 'https://www.hcnl.gob.mx/trabajo_legislativo/leyes/pdf/LEY%20DE%20DESARROLLO%20SOCIAL%20PARA%20EL%20ESTADO%20DE%20NUEVO%20LEON.pdf',
+  },
+  {
+    titulo: 'Ley General de Desarrollo Social',
+    url: 'https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_General_de_Desarrollo_Social.pdf',
+  },
+  {
+    titulo: 'Ley de la Beneficencia Privada para el Estado de Nuevo León',
+    url: 'https://sistec.nl.gob.mx/Transparencia_2015/Archivos/AC_0001_0002_0169172-0000001.pdf',
+  },
+  {
+    titulo: 'Manual de Operaciones de la Secretaría de Igualdad e Inclusión',
+    url: null,
+  },
+  {
+    titulo: 'Reglamento Interior de la Secretaría de Igualdad e Inclusión',
+    url: 'https://sistec.nl.gob.mx/Transparencia_2015/Archivos/AC_0001_0004_0170186-0000001.pdf',
+  },
+  {
+    titulo: 'Ley de Egresos del Estado de Nuevo León para el Ejercicio Fiscal 2024',
+    url: 'https://www.hcnl.gob.mx/trabajo_legislativo/leyes/paquete_fiscal/ley_de_egresos_del_estado_de_nuevo_leon_para_el_ejercicio_fiscal_2024/',
+  },
+  {
+    titulo:
+      'Ley de Protección de Datos Personales en Posesión de Sujetos Obligados del Estado de Nuevo León',
+    url: 'https://www.hcnl.gob.mx/trabajo_legislativo/leyes/leyes/ley_de_proteccion_de_datos_personales_en_posesion_de_sujetos_obligados_del_estado_de_nuevo_leon/',
+  },
+  {
+    titulo:
+      'Reglamento de la Ley de Fomento de la Sociedad Civil Organizada para el Estado de Nuevo León',
+    url: 'https://sistec.nl.gob.mx/Transparencia_2015/Archivos/AC_0001_0004_0171356-0000001.pdf',
+  },
+  {
+    titulo: 'Reglamento de la Ley de Desarrollo Social del Estado de Nuevo León',
+    url: null,
+  },
+]
+
+// Videos OSC's — IDs de YouTube tomados del sitio original.
+export const VIDEOS_OSC = [
+  { id: 'Cfqzj8wAbek', titulo: 'Video institucional OSC NL 1' },
+  { id: 'DJVKAwHdetQ', titulo: 'Video institucional OSC NL 2' },
+  { id: 'GeLUeDuUGY0', titulo: 'Video institucional OSC NL 3' },
+  { id: 'A_N4YSZQQ70', titulo: 'Video institucional OSC NL 4' },
+]
+
 export const REDES = [
   { label: 'Facebook', url: 'https://facebook.com/igualdadnl' },
   { label: 'Instagram', url: 'https://instagram.com/igualdadnl' },
