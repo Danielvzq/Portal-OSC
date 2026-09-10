@@ -1,5 +1,5 @@
 import Hero from '../components/Hero'
-import { MARCO_NORMATIVO } from '../data/documentos'
+import { MARCO_NORMATIVO, TEORIA_DEL_CAMBIO } from '../data/documentos'
 
 function DocIcon() {
   return (
@@ -65,6 +65,33 @@ export default function MaterialApoyo() {
             </ul>
           </div>
         )}
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 pb-20">
+        <h2 className="mb-2 text-2xl font-bold text-navy">Teoría del Cambio</h2>
+        <p className="mb-6 max-w-2xl text-sm text-navy/60">
+          Recursos audiovisuales para entender la metodología de Teoría del Cambio aplicada al
+          diseño de proyectos sociales.
+        </p>
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {TEORIA_DEL_CAMBIO.map((video) => (
+            <div key={video.id} className="overflow-hidden rounded-xl2 border border-black/5 bg-white shadow-sm">
+              <div className="aspect-video w-full">
+                <iframe
+                  className="h-full w-full"
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  title={video.titulo}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <div className="p-4">
+                <p className="text-sm font-semibold text-navy">{video.titulo}</p>
+                <p className="text-xs text-navy/50">{video.canal}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   )
