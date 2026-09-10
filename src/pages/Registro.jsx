@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react'
 import Hero from '../components/Hero'
 import { DIRECTORIO_MUESTRA } from '../data/documentos'
 
-const REGISTRO_FORM = 'https://docs.google.com/forms/d/1C1yJF6HElhnlopC4dAIW47SQK3JmeodLc9b2fOxi894/edit'
+const REGISTRO_NUEVO_URL = 'https://drive.google.com/file/d/1SUll5aK9j7rvZIBsOIfizrnthM3De_b_/view'
+const ACTUALIZAR_DATOS_URL = 'https://docs.google.com/forms/d/1C1yJF6HElhnlopC4dAIW47SQK3JmeodLc9b2fOxi894/edit'
 const DIRECTORIO_XLSX =
   'https://docs.google.com/spreadsheets/d/e/2PACX-1vS1TydPrHlnpb8vzODyXyitTkRmqSFQdKZ51pNSMKeTp3ZbwN1JQ9QTyt0IlbL197Sc00Dg2tVPHhIw/pub?output=xlsx'
 
@@ -30,7 +31,7 @@ export default function Registro() {
           <p className="mb-4 text-sm text-navy/70">
             Registra tu organización y amplía su alcance para generar alianzas estratégicas.
           </p>
-          <a href={REGISTRO_FORM} target="_blank" rel="noreferrer" className="pill-btn-dark text-sm">
+          <a href={REGISTRO_NUEVO_URL} target="_blank" rel="noreferrer" className="pill-btn-dark text-sm">
             Ir al formulario
           </a>
         </div>
@@ -40,7 +41,7 @@ export default function Registro() {
           <p className="mb-4 text-sm text-navy/70">
             Si ya cuentas con registro, mantén tu información completa y vigente.
           </p>
-          <a href={REGISTRO_FORM} target="_blank" rel="noreferrer" className="pill-btn-dark text-sm">
+          <a href={ACTUALIZAR_DATOS_URL} target="_blank" rel="noreferrer" className="pill-btn-dark text-sm">
             Actualizar datos
           </a>
         </div>
